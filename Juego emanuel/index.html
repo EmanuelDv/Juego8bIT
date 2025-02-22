@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héroe Emanuel</title>
+    <link rel="icon" type="image/png" href="/images/Icon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Ema & su amada</h1>
+    <button id="startButton">Iniciar Juego</button>
+    
+    <div id="progressContainer" style="display: none; width: 80%; max-width: 600px; background: #ccc; height: 10px; position: relative; margin-top: 10px;">
+        <div id="progressBar" style="width: 0%; height: 100%; background: #4CAF50;"></div>
+        <span id="progressText" style="position: absolute; top: -20px; right: 0; font-size: 14px;">0%</span>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="400" style="display: none;"></canvas>
+
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>
